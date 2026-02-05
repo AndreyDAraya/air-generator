@@ -1,0 +1,16 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    - always_declare_return_types
+    - cancel_subscriptions
+    - close_sinks
+    - comment_references
+    - one_member_abstracts
+    - only_throw_errors
+    - package_api_docs
+    - prefer_const_constructors
+    - prefer_final_locals
+    - test_types_in_equals
+    - throw_in_finally
+    - use_super_parameters

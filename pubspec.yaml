@@ -1,0 +1,19 @@
+name: air_generator
+description: A robust code generator for the Air Framework that automates state management through Pulses and StateFlows.
+version: 1.0.0
+homepage: https://github.com/AndreyDAraya/air-generator
+repository: https://github.com/AndreyDAraya/air-generator
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  analyzer: ^9.0.0
+  build: ^4.0.4
+  source_gen: ^4.2.0
+
+dev_dependencies:
+  build_runner: ^2.10.5
+  build_test: ^3.5.5
+  lints: ^6.1.0
+  test: ^1.29.0

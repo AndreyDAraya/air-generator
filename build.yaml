@@ -1,0 +1,7 @@
+builders:
+  air_generator:
+    import: "package:air_generator/builder.dart"
+    builder_factories: ["airGenerator"]
+    build_extensions: { ".dart": [".air.g.dart"] }
+    auto_apply: dependents
+    build_to: source
